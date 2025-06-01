@@ -1,0 +1,14 @@
+- type: loadoutEffectGroup
+  id: Tutorial #imp
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:OverallPlaytimeRequirement
+      time: 54000 #15 hrs
+      inverted: true # don't let experienced players select these
+
+- type: loadout
+  id: NoviceMark # no playtime lockout for needing time :)
+  storage:
+    back:
+    - ClothingNeckNoviceMark
