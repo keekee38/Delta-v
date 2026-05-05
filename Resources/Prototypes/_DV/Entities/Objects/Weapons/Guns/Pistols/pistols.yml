@@ -1,6 +1,6 @@
 - type: entity
   name: viper
-  parent: BaseWeaponPistol
+  parent: WeaponPistolViper
   id: WeaponPistolViperWood
   description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
   suffix: Wood
@@ -184,6 +184,7 @@
         whitelist:
           tags:
             - MagazinePistol
+        whitelistFailPopup: gun-magazine-whitelist-fail
 
 - type: entity
   parent: WeaponPistolSLP57
@@ -201,6 +202,7 @@
         whitelist:
           tags:
             - MagazinePistol
+        whitelistFailPopup: gun-magazine-whitelist-fail
 
 - type: entity
   parent: BaseWeaponPistol
@@ -253,6 +255,7 @@
         whitelist:
           tags:
           - MagazineUniversalMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
 
 - type: entity
   parent: WeaponPistolUniversal
@@ -270,3 +273,4 @@
         whitelist:
           tags:
           - MagazineUniversalMagnum
+        whitelistFailPopup: gun-magazine-whitelist-fail
