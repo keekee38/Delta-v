@@ -242,6 +242,12 @@
           tags:
           - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeRifle
 
 - type: entity
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]

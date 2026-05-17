@@ -117,6 +117,12 @@
           tags:
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgePistol
 
 - type: entity
   name: SLP-57
@@ -185,6 +191,12 @@
           tags:
             - MagazinePistol
         whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgePistol
 
 - type: entity
   parent: WeaponPistolSLP57
@@ -203,6 +215,12 @@
           tags:
             - MagazinePistol
         whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgePistol
 
 - type: entity
   parent: BaseWeaponPistol
@@ -256,6 +274,12 @@
           tags:
           - MagazineUniversalMagnum
         whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeMagnum
 
 - type: entity
   parent: WeaponPistolUniversal
@@ -274,3 +298,9 @@
           tags:
           - MagazineUniversalMagnum
         whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeMagnum
