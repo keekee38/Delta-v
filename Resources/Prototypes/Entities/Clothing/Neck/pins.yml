@@ -11,6 +11,10 @@
     sprite: Clothing/Neck/Misc/pins.rsi
   - type: Clothing
     sprite: Clothing/Neck/Misc/pins.rsi
+  - type: WearerGetsExamineText # imp
+    thing: obvious-thing-pin
+    examineText: obvious-desc-default
+    pocketEvident: true
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -33,10 +37,6 @@
     - ClothMade #idk man its on the parent
     - WhitelistChameleon
     - GenderPin
-  - type: WearerGetsExamineText # imp
-    thing: obvious-thing-pin
-    examineText: obvious-desc-default
-    pocketEvident: true
 
 - type: entity
   parent: ClothingGenderPinBase
