@@ -412,7 +412,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineResearchDirector
-  suffix: Research Director
+  suffix: Mystagogue
   components:
   - type: PageSender
     autoLinkJobs: [ResearchDirector]
@@ -498,3 +498,13 @@
     autoLinkJobs: [Prisoner]
   - type: FaxMachine
     name: "Permanent Brig"
+
+#hitman
+- type: entity
+  parent: FaxMachineBase
+  id: FaxMachineHitman
+  suffix: Hitman
+  components:
+  - type: FaxMachine
+    name: "Unknown?"
+    responsePings: false
