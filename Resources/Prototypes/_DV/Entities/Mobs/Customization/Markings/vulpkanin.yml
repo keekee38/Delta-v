@@ -265,7 +265,7 @@
       state: vulp-tip
 
 - type: marking
-  id: VulpTailWag
+  id: VulpTailAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin, Felinid, Kitsune]
   sprites:
@@ -275,7 +275,7 @@
       state: vulp_wag-tip #fade
 
 - type: marking
-  id: VulpTailWagTip
+  id: VulpTailTipAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin, Felinid, Kitsune]
   sprites:
@@ -335,7 +335,7 @@
       state: fox-tip
 
 - type: marking
-  id: VulpTailFoxWag
+  id: VulpTailFoxAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin, Felinid, Kitsune]
   sprites:
@@ -345,7 +345,7 @@
       state: fox_wag-fade
 
 - type: marking
-  id: VulpTailFoxWagTip
+  id: VulpTailFoxTipAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin, Felinid, Kitsune]
   sprites:
@@ -363,7 +363,7 @@
       state: bushfluff
 
 - type: marking
-  id: VulpTailBushyWag
+  id: VulpTailBushyAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin]
   sprites:
@@ -379,7 +379,7 @@
       state: coyote
 
 - type: marking
-  id: VulpTailCoyoteWag
+  id: VulpTailCoyoteAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin, Felinid, Kitsune]
   sprites:
@@ -387,7 +387,7 @@
       state: coyote_wag
 
 - type: marking
-  id: VulpTailCorgiWag
+  id: VulpTailCorgiAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin]
   sprites:
@@ -455,7 +455,7 @@
       state: fluffy
 
 - type: marking
-  id: VulpTailDalmatianWag
+  id: VulpTailDalmatianAnimated
   bodyPart: Tail
   groupWhitelist: [Vulpkanin]
   sprites:
