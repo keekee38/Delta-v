@@ -57,4 +57,3 @@ phrase-hostile = Hostile
 phrase-hostile-infiltrator = Infiltrator
 phrase-hostile-intruder = Intruder
 phrase-hostile-weapon = Weapon
-
