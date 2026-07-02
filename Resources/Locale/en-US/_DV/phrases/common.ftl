@@ -13,6 +13,7 @@ phrase-know = Know
 phrase-run = Run
 phrase-show = Show
 phrase-switch = Switch
+phrase-teach = Teach
 phrase-think = Think
 
 # commands and requests

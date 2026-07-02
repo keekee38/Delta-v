@@ -98,6 +98,16 @@
   parent: BaseLogisticsSubjectPhrase
   text: phrase-planetside
 
+- type: quickPhrase
+  id: MaterialsPhrase
+  parent: BaseLogisticsSubjectPhrase
+  text: phrase-materials
+
+- type: quickPhrase
+  id: MiningPhrase
+  parent: BaseLogisticsSubjectPhrase
+  text: phrase-mining
+
 # Ores
 
 - type: quickPhrase
