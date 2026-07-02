@@ -153,7 +153,7 @@
 - type: quickPhrase
   id: PhraseLogisticsBluespaceCrystal
   parent: BaseLogisticsSubjectPhrase
-  text: phrase-bluespace-crystal
+  text: phrase-bluespace
 
 - type: quickPhrase
   id: PhraseLogisticsDiamond
