@@ -138,7 +138,7 @@
       price: 150
     - type: DoorBolt # DeltaV - Revert fire-fighting door remote removal.
     - type: AccessReader
-      access: [ [ "External" ] ] # Delta V - was Engineering
+      access: [ [ "External" ] ] # DeltaV - was Engineering
       examinationText: access-reader-examination-functionality-restricted
     - type: PryUnpowered
       pryModifier: 0.5
